@@ -1,6 +1,26 @@
-* { 
+* /*p {
+    line-height: 1.5; 
+*/
+
+ul{
+    line-height: 2;
+}
+
+h1 {
+    line-height: 2; /* Устанавливает межстрочное расстояние в 2 раза больше размера шрифта */
+}
+
+h4{
+    line-height: 1;
+}
+
+.custom-line-height {
+    line-height: 30px; /* Устанавливает фиксированное расстояние между строками */
+}
+
+/*{ 
     box-sizing: border-box; 
-} 
+} */
 
 body { 
     margin: 0; 
@@ -24,23 +44,46 @@ body {
     padding: 15px; 
     overflow: hidden; 
     font-size: 14px; 
+    position: relative; /* Позволяет точно позиционировать элементы внутри блока */
 } 
 
 .rectangle { 
     background-color: transparent; /* Прозрачный фон */ 
     border: 5px solid white; /* Белая рамка */ 
-    width: 30%; 
-    height: 140px; 
+    width: 25%; 
+    height: 110px; 
     margin-top: 0.3%; 
     float: left; /* добавлено для обтекания текста */ 
-    margin-right: 20px; /* отступ для текста */   
+    margin-right: 15px; /* отступ для текста */   
     border-top-left-radius: 30px; /* Скругление верхнего левого угла */
     border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */
-} 
+    margin-bottom: 20px;
+}
+.second-rectangle {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 30px; /* Отступ от нижней части синего блока */
+    right: 20px; /* Отступ от правой части синего блока */
+    width: 35%; 
+    height: 130px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+
+.mini-rectangle1 {
+    background-color: rgb(1, 134, 19);
+    fill: green;
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 34px; /* Отступ от нижней части синего блока */
+    right: 24px; /* Отступ от правой части синего блока */
+    width: 23%; 
+    height: 47px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
 
 .link-center { 
     text-align: center; /* Центрирование текста ссылки */ 
-    margin-top: 20px; /* Отступ сверху перед ссылкой */ 
+    margin-top: 0; /* Отступ сверху перед ссылкой */ 
 } 
 
 .link-center a { 
@@ -55,6 +98,6 @@ body {
 
 .footer { 
     position: fixed; 
-    bottom: 55px; /* Заменил 10 на 10px */
+    bottom: 0px;
     width: 100%; 
 } 
