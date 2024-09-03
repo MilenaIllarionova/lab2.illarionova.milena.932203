@@ -1,17 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web lab1</title>
+    <link rel="stylesheet" type="text/css" href="123.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .green-banner {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 20px;
+        }
+        .blue-block {
+            background-color: blue;
+            color: white;
+            height: auto;
+            width: 30%;
+            margin: 0 auto;
+            /*position: relative;
+            display: flex;
+            flex-direction: column;*/
+            padding: 20px;
+            overflow: hidden;
+        }
+        .rectangle {
+            background-color: transparent; /* Прозрачный фон */
+            border: 5px solid white; /* Белая рамка */
+            width: 30%;
+            height: 140px;
+            margin-top: 0,3%;
+            float: left; /* добавлено для обтекания текста */
+            margin-right: 20px; /* отступ для текста */  
+        }
+        .link-center {
+            text-align: center; /* Центрирование текста ссылки */
+            margin-top: 20px; /* Отступ сверху перед ссылкой */
+        }
+        .link-center a {
+            color: rgb(192, 0, 0); /* Цвет ссылки */
+            text-decoration: none; /* Убираем подчеркивание */
+            font-weight: bold; /* Жирное начертание текста */
+        }
+            .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
 </head>
 <body>
-    
+
+<header class="green-banner">Hello, Header!</header>
+
+<section class="blue-block">
+    <h1>Hello, content!</h1>
+    <div class="rectangle"></div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+    <div class="link-center">
+        <a href="https://example.com">www.csd.tsu.ru</a>
+    </div>
+</section>
+
+<footer class="footer green-banner">Hello, Footer!</footer>
+
 </body>
- <style type="text/css">
-    h1, h3, h4{color: aliceblue;}
-    p{color: aliceblue;}
-    li{color: aliceblue;}
-    body{background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614393789_2-p-temnie-anime-foni-na-telefon-2.jpg) center center no-repeat; background-size: cover;}
-    img{ width: 500px;}
-    .round{border-radius: 10000px; border: 3px solid black; box-shadow: 0 0 7px #666; align-items: center;}
- </style>
 </html>
+
