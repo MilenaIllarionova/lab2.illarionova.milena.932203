@@ -63,18 +63,77 @@ body {
     position: absolute; /* Позволяет позиционировать элемент */
     bottom: 30px; /* Отступ от нижней части синего блока */
     right: 20px; /* Отступ от правой части синего блока */
-    width: 35%; 
-    height: 130px; 
+    width: 31%; 
+    height: 140px; 
     background-color: transparent; 
     border: 2px solid white;
 }
 
 .mini-rectangle1 {
     position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 79px; /* Отступ от нижней части синего блока */
+    right:122px; /* Отступ от правой части синего блока */
+    width: 9%; 
+    height: 85px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+
+.mini-rectangle2 {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 124px; /* Отступ от нижней части синего блока */
+    right:24px; /* Отступ от правой части синего блока */
+    width: 9%; 
+    height: 40px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+
+.mini-rectangle3 {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 124px; /* Отступ от нижней части синего блока */
+    right: 73px; /* Отступ от правой части синего блока */
+    width: 9%; 
+    height: 40px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+
+.mini-rectangle4 {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 79px; /* Отступ от нижней части синего блока */
+    right: 73px; /* Отступ от правой части синего блока */
+    width: 9%; 
+    height: 40px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+
+.mini-rectangle5 {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 79px; /* Отступ от нижней части синего блока */
+    right: 24px; /* Отступ от правой части синего блока */
+    width: 9%; 
+    height: 40px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+
+.mini-rectangle6 {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 34px; /* Отступ от нижней части синего блока */
+    right: 122px; /* Отступ от правой части синего блока */
+    width: 9%; 
+    height: 40px; 
+    background-color: transparent; 
+    border: 2px solid white;
+}
+.mini-rectangle7 {
+    position: absolute; /* Позволяет позиционировать элемент */
     bottom: 34px; /* Отступ от нижней части синего блока */
     right: 24px; /* Отступ от правой части синего блока */
-    width: 23%; 
-    height: 47px; 
+    width: 19%; 
+    height: 40px; 
     background-color: transparent; 
     border: 2px solid white;
 }
