@@ -18,7 +18,7 @@
             color: white;
             text-align: center;
             padding: 10px 0;
-            font-size: 20px;
+            font-size: 15px;
         }
         .blue-block {
             background-color: blue;
@@ -29,8 +29,9 @@
             /*position: relative;
             display: flex;
             flex-direction: column;*/
-            padding: 20px;
+            padding: 15px;
             overflow: hidden;
+            font-size: 14px;
         }
         .rectangle {
             background-color: transparent; /* Прозрачный фон */
@@ -50,10 +51,14 @@
             text-decoration: none; /* Убираем подчеркивание */
             font-weight: bold; /* Жирное начертание текста */
         }
+        .highlight {
+            color: red; /* Красный цвет для выделения */
+        }
             .footer {
             position: fixed;
-            bottom: 0;
+            bottom: 10;
             width: 100%;
+
         }
         
     </style>
@@ -69,6 +74,19 @@
     <div class="link-center">
         <a href="https://example.com">www.csd.tsu.ru</a>
     </div>
+    <h2><span class="highlight">Here</span> is the list:</h2>
+    <ul>
+        <li>Value 1</li>
+        <li>Value 2</li>
+        <li>Value 3</li>
+    </ul>
+    <h4>Here are some visual styles:</h4>
+    <p style="font-style: italic;">Italic</p>
+    <p><strong>Bold</strong></p>
+    <p><u>UnderLined</u></p>
+    <s>Line through</s>
+    
+</section>
 </section>
 
 <footer class="footer green-banner">Hello, Footer!</footer>
