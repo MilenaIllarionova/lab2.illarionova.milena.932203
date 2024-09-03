@@ -34,6 +34,8 @@ body {
     margin-top: 0.3%; 
     float: left; /* добавлено для обтекания текста */ 
     margin-right: 20px; /* отступ для текста */   
+    border-top-left-radius: 30px; /* Скругление верхнего левого угла */
+    border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */
 } 
 
 .link-center { 
