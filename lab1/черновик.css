@@ -1,0 +1,58 @@
+* { 
+    box-sizing: border-box; 
+} 
+
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+} 
+
+.green-banner { 
+    background-color: green; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 15px; 
+} 
+
+.blue-block { 
+    background-color: blue; 
+    color: white; 
+    height: auto; 
+    width: 30%; 
+    margin: 0 auto; 
+    padding: 15px; 
+    overflow: hidden; 
+    font-size: 14px; 
+} 
+
+.rectangle { 
+    background-color: transparent; /* Прозрачный фон */ 
+    border: 5px solid white; /* Белая рамка */ 
+    width: 30%; 
+    height: 140px; 
+    margin-top: 0.3%; 
+    float: left; /* добавлено для обтекания текста */ 
+    margin-right: 20px; /* отступ для текста */   
+} 
+
+.link-center { 
+    text-align: center; /* Центрирование текста ссылки */ 
+    margin-top: 20px; /* Отступ сверху перед ссылкой */ 
+} 
+
+.link-center a { 
+    color: rgb(192, 0, 0); /* Цвет ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание */ 
+    font-weight: bold; /* Жирное начертание текста */ 
+} 
+
+.highlight { 
+    color: red; /* Красный цвет для выделения */ 
+} 
+
+.footer { 
+    position: fixed; 
+    bottom: 55px; /* Заменил 10 на 10px */
+    width: 100%; 
+} 
