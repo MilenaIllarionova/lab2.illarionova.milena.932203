@@ -1,13 +1,9 @@
-* /*p {
-    line-height: 1.5; 
-*/
-
-ul{
+* ul{
     line-height: 2;
 }
 
 h1 {
-    line-height: 2; /* Устанавливает межстрочное расстояние в 2 раза больше размера шрифта */
+    line-height: 2; 
 }
 
 h4{
@@ -17,10 +13,6 @@ h4{
 .custom-line-height {
     line-height: 40px; /* Устанавливает фиксированное расстояние между строками */
 }
-
-/*{ 
-    box-sizing: border-box; 
-} */
 
 body { 
     margin: 0; 
@@ -59,6 +51,15 @@ body {
     border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */
     margin-bottom: 20px;
 }
+
+.image {
+    position: absolute;
+    right: 525px;
+    bottom: 50px;
+    width: 15px;
+    height: 15px;
+}
+
 .second-rectangle {
     position: absolute; /* Позволяет позиционировать элемент */
     bottom: 30px; /* Отступ от нижней части синего блока */
@@ -70,72 +71,79 @@ body {
 }
 
 .mini-rectangle1 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 79px; /* Отступ от нижней части синего блока */
-    right:122px; /* Отступ от правой части синего блока */
+    position: absolute;
+    bottom: 79px;
+    right:122px;
     width: 9%; 
     height: 85px; 
-    background-color: transparent; 
+    background-color: green; 
     border: 2px solid white;
+    text-align: center;
 }
 
 .mini-rectangle2 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 124px; /* Отступ от нижней части синего блока */
-    right:24px; /* Отступ от правой части синего блока */
+    position: absolute;
+    bottom: 124px;
+    right:24px;
     width: 9%; 
     height: 40px; 
     background-color: transparent; 
     border: 2px solid white;
+    text-align: center;
 }
 
 .mini-rectangle3 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 124px; /* Отступ от нижней части синего блока */
-    right: 73px; /* Отступ от правой части синего блока */
+    position: absolute;
+    bottom: 124px;
+    right: 73px;
     width: 9%; 
     height: 40px; 
     background-color: transparent; 
     border: 2px solid white;
+    text-align: center;
 }
 
 .mini-rectangle4 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 79px; /* Отступ от нижней части синего блока */
-    right: 73px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 79px; 
+    right: 73px; 
     width: 9%; 
     height: 40px; 
     background-color: transparent; 
     border: 2px solid white;
+    text-align: center;
 }
 
 .mini-rectangle5 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 79px; /* Отступ от нижней части синего блока */
-    right: 24px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 79px; 
+    right: 24px; 
     width: 9%; 
     height: 40px; 
     background-color: transparent; 
     border: 2px solid white;
+    text-align: center;
 }
 
 .mini-rectangle6 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 34px; /* Отступ от нижней части синего блока */
-    right: 122px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 34px; 
+    right: 122px; 
     width: 9%; 
     height: 40px; 
     background-color: transparent; 
     border: 2px solid white;
+    text-align: center;
 }
 .mini-rectangle7 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 34px; /* Отступ от нижней части синего блока */
-    right: 24px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 34px; 
+    right: 24px; 
     width: 19%; 
     height: 40px; 
-    background-color: transparent; 
+    background-color: red; 
     border: 2px solid white;
+    text-align: center;
 }
 
 .link-center { 
@@ -155,6 +163,6 @@ body {
 
 .footer { 
     position: fixed; 
-    bottom: 0px;
+    bottom: 4px;
     width: 100%; 
 } 
