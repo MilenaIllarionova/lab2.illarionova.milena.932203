@@ -4,93 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web lab1</title>
-    <link rel="stylesheet" type="text/css" href="123.css">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .green-banner {
-            background-color: green;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            font-size: 15px;
-        }
-        .blue-block {
-            background-color: blue;
-            color: white;
-            height: auto;
-            width: 30%;
-            margin: 0 auto;
-            /*position: relative;
-            display: flex;
-            flex-direction: column;*/
-            padding: 15px;
-            overflow: hidden;
-            font-size: 14px;
-        }
-        .rectangle {
-            background-color: transparent; /* Прозрачный фон */
-            border: 5px solid white; /* Белая рамка */
-            width: 30%;
-            height: 140px;
-            margin-top: 0,3%;
-            float: left; /* добавлено для обтекания текста */
-            margin-right: 20px; /* отступ для текста */  
-        }
-        .link-center {
-            text-align: center; /* Центрирование текста ссылки */
-            margin-top: 20px; /* Отступ сверху перед ссылкой */
-        }
-        .link-center a {
-            color: rgb(192, 0, 0); /* Цвет ссылки */
-            text-decoration: none; /* Убираем подчеркивание */
-            font-weight: bold; /* Жирное начертание текста */
-        }
-        .highlight {
-            color: red; /* Красный цвет для выделения */
-        }
-            .footer {
-            position: fixed;
-            bottom: 10;
-            width: 100%;
-
-        }
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="черновик.css"> 
 </head>
 <body>
 
 <header class="green-banner">Hello, Header!</header>
-
-<section class="blue-block">
-    <h1>Hello, content!</h1>
-    <div class="rectangle"></div>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
-    <div class="link-center">
-        <a href="https://example.com">www.csd.tsu.ru</a>
-    </div>
-    <h2><span class="highlight">Here</span> is the list:</h2>
-    <ul>
-        <li>Value 1</li>
-        <li>Value 2</li>
-        <li>Value 3</li>
-    </ul>
-    <h4>Here are some visual styles:</h4>
-    <p style="font-style: italic;">Italic</p>
-    <p><strong>Bold</strong></p>
-    <p><u>UnderLined</u></p>
-    <s>Line through</s>
+ 
+<section class="blue-block"> 
+    <h1>Hello, content!</h1> 
+    <div class="rectangle"></div> 
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>   
+    <div class="link-center"> 
+        <a href="https://example.com">www.csd.tsu.ru</a> 
+    </div> 
+    <h2 class="spaced-heading"><span class="highlight">Here</span> is the list:</h2>
+    <ul> 
+        <li>Value 1</li> 
+        <li class="spaced-text">V a l u e   2</li>
+        <li>Value 3</li> 
+    </ul> 
+    <div class="second-rectangle"></div>
+    <div class="mini-rectangle7">7</div>
+    <div class="mini-rectangle6">6</div>
+    <div class="mini-rectangle5">5</div>
+    <div class="mini-rectangle4">4</div>
+    <div class="mini-rectangle3">3</div>
+    <div class="mini-rectangle2">2</div>
+    <div class="mini-rectangle1">1</div>
     
+    <h4>Here are some visual styles:</h4> 
+    <p style="font-style: italic;">Italic</p> 
+    <p><strong>Bold</strong></p> 
+    <p><u>UnderLined</u></p> 
+    <s>Line through</s>
 </section>
-</section>
-
-<footer class="footer green-banner">Hello, Footer!</footer>
+<img src="images.jpg" alt="placeholder" class="image">
+<footer class="footer green-banner">Hello, Footer!</footer> 
 
 </body>
 </html>
-
