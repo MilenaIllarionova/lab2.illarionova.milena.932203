@@ -1,168 +1,172 @@
-* ul{
-    line-height: 2;
+/* Общие стили */
+body {  
+    margin: 0;  
+    font-family: Arial, sans-serif;  
 }
 
-h1 {
+/* Стили для заголовков */
+h1 { 
+    line-height: 2;  
+} 
+
+h4 { 
+    line-height: 1; 
+}
+
+/* Стили для списков */
+ul { 
     line-height: 2; 
 }
 
-h4{
-    line-height: 1;
+/* Кастомные стили для высоты строки */
+.custom-line-height { 
+    line-height: 40px; /* Устанавливает фиксированное расстояние между строками */ 
 }
 
-.custom-line-height {
-    line-height: 40px; /* Устанавливает фиксированное расстояние между строками */
-}
+/* Стили для баннеров */
+.green-banner {  
+    background-color: green;  
+    color: white;  
+    text-align: center;  
+    padding: 10px 0;  
+    font-size: 15px;  
+}  
 
-body { 
-    margin: 0; 
-    font-family: Arial, sans-serif; 
+/* Стили для блока с информацией */
+.blue-block {  
+    background-color: blue;  
+    color: white;  
+    height: auto;  
+    width: 30%;  
+    margin: 0 auto;  
+    padding: 15px;  
+    overflow: hidden;  
+    font-size: 14px;  
+    position: relative; /* Позволяет точно позиционировать элементы внутри блока */ 
+}  
+
+/* Стили для текста с пробелами между буквами */
+.spaced-text { 
+    color: rgb(81, 203, 255); /* Установите цвет текста на голубой */ 
 } 
 
-.green-banner { 
-    background-color: green; 
-    color: white; 
+/* Стили для прямоугольников */
+.rectangle {  
+    background-color: transparent; /* Прозрачный фон */  
+    border: 5px solid white; /* Белая рамка */  
+    width: 25%;  
+    height: 110px;  
+    margin-top: 0.3%;  
+    float: left; /* добавлено для обтекания текста */  
+    margin-right: 15px; /* отступ для текста */    
+    border-top-left-radius: 30px; /* Скругление верхнего левого угла */ 
+    border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */ 
+    margin-bottom: 20px; 
+} 
+
+/* Стили для изображений */
+.image { 
+    position: absolute; 
+    right: 525px; 
+    bottom: 50px; 
+    width: 15px; 
+    height: 15px; 
+} 
+
+/* Стили для второго прямоугольника */
+.second-rectangle { 
+    position: absolute; /* Позволяет позиционировать элемент */ 
+    bottom: 30px; /* Отступ от нижней части синего блока */ 
+    right: 20px; /* Отступ от правой части синего блока */ 
+    width: 31%;  
+    height: 140px;  
+    background-color: transparent;  
+    border: 2px solid white; 
+} 
+
+/* Стили для мини-прямоугольников */
+.mini-rectangle1, .mini-rectangle2, .mini-rectangle3, .mini-rectangle4, .mini-rectangle5, .mini-rectangle6, .mini-rectangle7 { 
+    position: absolute; 
+    border: 2px solid white; 
     text-align: center; 
-    padding: 10px 0; 
-    font-size: 15px; 
-} 
-
-.blue-block { 
-    background-color: blue; 
-    color: white; 
-    height: auto; 
-    width: 30%; 
-    margin: 0 auto; 
-    padding: 15px; 
-    overflow: hidden; 
-    font-size: 14px; 
-    position: relative; /* Позволяет точно позиционировать элементы внутри блока */
-} 
-
-.rectangle { 
-    background-color: transparent; /* Прозрачный фон */ 
-    border: 5px solid white; /* Белая рамка */ 
-    width: 25%; 
-    height: 110px; 
-    margin-top: 0.3%; 
-    float: left; /* добавлено для обтекания текста */ 
-    margin-right: 15px; /* отступ для текста */   
-    border-top-left-radius: 30px; /* Скругление верхнего левого угла */
-    border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */
-    margin-bottom: 20px;
 }
 
-.image {
-    position: absolute;
-    right: 525px;
-    bottom: 50px;
-    width: 15px;
-    height: 15px;
-}
-
-.second-rectangle {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 30px; /* Отступ от нижней части синего блока */
-    right: 20px; /* Отступ от правой части синего блока */
-    width: 31%; 
-    height: 140px; 
-    background-color: transparent; 
-    border: 2px solid white;
-}
-
-.mini-rectangle1 {
-    position: absolute;
-    bottom: 79px;
-    right:122px;
-    width: 9%; 
-    height: 85px; 
-    background-color: green; 
-    border: 2px solid white;
-    text-align: center;
-}
-
-.mini-rectangle2 {
-    position: absolute;
-    bottom: 124px;
-    right:24px;
-    width: 9%; 
-    height: 40px; 
-    background-color: transparent; 
-    border: 2px solid white;
-    text-align: center;
-}
-
-.mini-rectangle3 {
-    position: absolute;
-    bottom: 124px;
-    right: 73px;
-    width: 9%; 
-    height: 40px; 
-    background-color: transparent; 
-    border: 2px solid white;
-    text-align: center;
-}
-
-.mini-rectangle4 {
-    position: absolute; 
+.mini-rectangle1 { 
     bottom: 79px; 
+    right:122px; 
+    width: 9%;  
+    height: 85px;  
+    background-color: green;  
+} 
+
+.mini-rectangle2 { 
+    bottom: 124px; 
+    right:24px; 
+    width: 9%;  
+    height: 40px;  
+    background-color: transparent;  
+} 
+
+.mini-rectangle3 { 
+    bottom: 124px; 
     right: 73px; 
-    width: 9%; 
-    height: 40px; 
-    background-color: transparent; 
-    border: 2px solid white;
-    text-align: center;
-}
-
-.mini-rectangle5 {
-    position: absolute; 
-    bottom: 79px; 
-    right: 24px; 
-    width: 9%; 
-    height: 40px; 
-    background-color: transparent; 
-    border: 2px solid white;
-    text-align: center;
-}
-
-.mini-rectangle6 {
-    position: absolute; 
-    bottom: 34px; 
-    right: 122px; 
-    width: 9%; 
-    height: 40px; 
-    background-color: transparent; 
-    border: 2px solid white;
-    text-align: center;
-}
-.mini-rectangle7 {
-    position: absolute; 
-    bottom: 34px; 
-    right: 24px; 
-    width: 19%; 
-    height: 40px; 
-    background-color: red; 
-    border: 2px solid white;
-    text-align: center;
-}
-
-.link-center { 
-    text-align: center; /* Центрирование текста ссылки */ 
-    margin-top: 0; /* Отступ сверху перед ссылкой */ 
+    width: 9%;  
+    height: 40px;  
+    background-color: transparent;  
 } 
 
-.link-center a { 
-    color: rgb(192, 0, 0); /* Цвет ссылки */ 
-    text-decoration: none; /* Убираем подчеркивание */ 
-    font-weight: bold; /* Жирное начертание текста */ 
+.mini-rectangle4 { 
+    bottom: 79px;  
+    right: 73px; 
+    width: 9%;  
+    height: 40px;  
+    background-color: transparent;  
 } 
 
-.highlight { 
-    color: red; /* Красный цвет для выделения */ 
+.mini-rectangle5 { 
+    bottom: 79px;  
+    right: 24px;  
+    width: 9%;  
+    height: 40px;  
+    background-color: transparent;  
 } 
 
-.footer { 
-    position: fixed; 
-    bottom: 4px;
-    width: 100%; 
+.mini-rectangle6 { 
+    bottom: 34px;  
+    right: 122px;  
+    width: 9%;  
+    height: 40px;  
+    background-color: transparent;  
+} 
+
+.mini-rectangle7 { 
+    bottom: 34px;  
+    right: 24px;  
+    width: 19%;  
+    height: 40px;  
+    background-color: red;  
+} 
+
+/* Стили для ссылок */
+.link-center {  
+    text-align: center; /* Центрирование текста ссылки */  
+    margin-top: 0; /* Отступ сверху перед ссылкой */  
+}  
+
+.link-center a {  
+    color: rgb(192, 0, 0); /* Цвет ссылки */  
+    text-decoration: none; /* Убираем подчеркивание */  
+    font-weight: bold; /* Жирное начертание текста */  
+}  
+
+/* Стили для выделения текста */
+.highlight {  
+    color: red; /* Красный цвет для выделения */  
+}  
+
+/* Стили для футера */
+.footer {  
+    position: fixed;  
+    bottom: 4px; 
+    width: 100%;  
 } 
