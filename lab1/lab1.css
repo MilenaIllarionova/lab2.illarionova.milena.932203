@@ -73,6 +73,16 @@ ul {
     margin-bottom: 20px; 
 } 
 
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+.table-container {
+    margin-left: 80px;
+    margin-top: 15px; /* Увеличиваем отступ между текстом и таблицей */
+}
+
+
 td{
     width: 50px;
     height:40px;
