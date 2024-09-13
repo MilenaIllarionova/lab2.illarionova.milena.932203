@@ -4,7 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web lab1</title>
-    <link rel="stylesheet" type="text/css" href="черновик.css"> 
+    <link rel="stylesheet" type="text/css" href="lab1.css"> <!-- Подключаем внешний CSS файл -->
+    <style>
+        .flex-container {
+            display: flex;
+            align-items: flex-start; /* Выравнивание по верхнему краю */
+        }
+        .table-container {
+            margin-left: 80px;
+            margin-top: 15px; /* Увеличиваем отступ между текстом и таблицей */
+        }
+        td {
+       width: 50px;
+       height: 40px;
+       border: solid 1px silver;
+       text-align: center;
+       margin-top: 20px; 
+   }
+   
+
+    </style>
 </head>
 <body>
 
@@ -20,25 +39,42 @@
     <h2 class="spaced-heading"><span class="highlight">Here</span> is the list:</h2>
     <ul> 
         <li>Value 1</li> 
-        <li class="spaced-text">V a l u e   2</li>
+        <li class="spaced-text">V a l u e 2</li>
         <li>Value 3</li> 
-    </ul> 
-    <div class="second-rectangle"></div>
-    <div class="mini-rectangle7">7</div>
-    <div class="mini-rectangle6">6</div>
-    <div class="mini-rectangle5">5</div>
-    <div class="mini-rectangle4">4</div>
-    <div class="mini-rectangle3">3</div>
-    <div class="mini-rectangle2">2</div>
-    <div class="mini-rectangle1">1</div>
-    
-    <h4>Here are some visual styles:</h4> 
-    <p style="font-style: italic;">Italic</p> 
-    <p><strong>Bold</strong></p> 
-    <p><u>UnderLined</u></p> 
-    <s>Line through</s>
+    </ul>
+
+    <div class="flex-container">
+        <div class="text-container">
+            <h4>Here are some visual styles:</h4> 
+            <p style="font-style: italic;">Italic</p> 
+            <p><strong>Bold</strong></p> 
+            <p><u>UnderLined</u></p> 
+            <s>Line through</s>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <td rowspan="2" style="background-color:green;">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td colspan="2" style="background-color:red;">7</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <img src="images.jpg" alt="placeholder" class="image">
+
 </section>
-<img src="images.jpg" alt="placeholder" class="image">
+
 <footer class="footer green-banner">Hello, Footer!</footer> 
 
 </body>

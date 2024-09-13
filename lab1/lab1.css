@@ -6,11 +6,15 @@ body {
 
 /* Стили для заголовков */
 h1 { 
-    line-height: 2;  
+    line-height: 1;  
 } 
 
-h4 { 
+h3 { 
     line-height: 1; 
+}
+
+p {
+    font-size: 15px; /* Увеличиваем размер текста в параграфах */
 }
 
 /* Стили для списков */
@@ -29,7 +33,7 @@ ul {
     color: white;  
     text-align: center;  
     padding: 10px 0;  
-    font-size: 15px;  
+    font-size: 15px;
 }  
 
 /* Стили для блока с информацией */
@@ -40,9 +44,10 @@ ul {
     width: 30%;  
     margin: 0 auto;  
     padding: 15px;  
-    overflow: hidden;  
+    overflow: auto;  
     font-size: 14px;  
-    position: relative; /* Позволяет точно позиционировать элементы внутри блока */ 
+    position: relative; /* Позволяет точно позиционировать элементы внутри блока */
+    left: 20px; /* Задайте расстояние от левого края окна */ 
 }  
 
 /* Стили для текста с пробелами между буквами */
@@ -68,99 +73,21 @@ ul {
     margin-bottom: 20px; 
 } 
 
-/* Стили для изображений */
-.image { 
-    position: absolute; 
-    right: 525px; 
-    bottom: 50px; 
-    width: 15px; 
-    height: 15px; 
-} 
+td{
+    width: 50px;
+    height:40px;
+    border: solid 1px silver;
+    text-align:center;
+    }
 
-/* Стили для второго прямоугольника */
-.second-rectangle { 
-    position: absolute; /* Позволяет позиционировать элемент */ 
-    bottom: 30px; /* Отступ от нижней части синего блока */ 
-    right: 20px; /* Отступ от правой части синего блока */ 
-    width: 31%;  
-    height: 140px;  
-    background-color: transparent;  
-    border: 2px solid white; 
-} 
 
-/* Стили для мини-прямоугольников */
-.mini-rectangle1, .mini-rectangle2, .mini-rectangle3, .mini-rectangle4, .mini-rectangle5, .mini-rectangle6, .mini-rectangle7 {  
-    position: absolute;  
-    border: 2px solid white;  
-    text-align: center;  
-    display: flex; /* Используем flexbox для центрирования */
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
+.spaced-text {  
+    color: rgb(81, 203, 255);  
 }  
-
-
-.mini-rectangle1 { 
-    bottom: 79px; 
-    right:122px; 
-    width: 9%;  
-    height: 85px;  
-    background-color: green; 
-    font-size: 20px;
-} 
-
-.mini-rectangle2 { 
-    bottom: 124px; 
-    right:24px; 
-    width: 9%;  
-    height: 40px;  
-    background-color: transparent;
-    font-size: 20px; 
-} 
-
-.mini-rectangle3 { 
-    bottom: 124px; 
-    right: 73px; 
-    width: 9%;  
-    height: 40px;  
-    background-color: transparent;
-    font-size: 20px;  
-} 
-
-.mini-rectangle4 { 
-    bottom: 79px;  
-    right: 73px; 
-    width: 9%;  
-    height: 40px;  
-    background-color: transparent;
-    font-size: 20px;  
-} 
-
-.mini-rectangle5 { 
-    bottom: 79px;  
-    right: 24px;  
-    width: 9%;  
-    height: 40px;  
-    background-color: transparent;
-    font-size: 20px;  
-} 
-
-.mini-rectangle6 { 
-    bottom: 34px;  
-    right: 122px;  
-    width: 9%;  
-    height: 40px;  
-    background-color: transparent;
-    font-size: 20px;  
-} 
-
-.mini-rectangle7 { 
-    bottom: 34px;  
-    right: 24px;  
-    width: 19%;  
-    height: 40px;  
-    background-color: red;
-    font-size: 20px;  
-} 
+ 
+.spaced-heading { 
+    word-spacing: 10px;
+}
 
 /* Стили для ссылок */
 .link-center {  
@@ -174,6 +101,15 @@ ul {
     font-weight: bold; /* Жирное начертание текста */  
 }  
 
+/* Стили для изображений */
+.image {
+    position: absolute; /* Используем абсолютное позиционирование */
+    bottom: 5px; /* Высота футера плюс отступ */
+    right: 25px; /* Отступ от правого края */
+    width: 20px; /* Ширина изображения */
+    height: auto; /* Высота автоматически подстраивается */
+}
+
 /* Стили для выделения текста */
 .highlight {  
     color: red; /* Красный цвет для выделения */  
@@ -182,6 +118,6 @@ ul {
 /* Стили для футера */
 .footer {  
     position: fixed;  
-    bottom: 4px; 
+    bottom: 18px; 
     width: 100%;  
 } 
